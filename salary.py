@@ -50,7 +50,7 @@ with st.form(key="my_form"):
         m=1
         b=0
         p=0
-    elif education=="Phd":
+    elif education=="PhD":
         m=0
         b=0
         p=1
