@@ -9,7 +9,7 @@ from sklearn.feature_extraction.text import TfidfTransformer
 
 @st.cache_data 
 def getdata():
-    df=pd.read_csv("data\cleaned3_imdb.csv",index_col=0)
+    df=pd.read_csv("cleaned3_imdb.csv",index_col=0)
     return df
 
 
