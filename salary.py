@@ -38,7 +38,7 @@ model = lm.fit(X_train, y_train)
 
 
 with st.form(key="my_form"):
-    age=st.number_input("Enter your age:",min_value=18)
+    age=st.number_input("Enter your age:",min_value=20)
     experience=st.number_input("Enter year of experience:",min_value=0)
     education=st.radio("Education Level", ["Bachelor's", "Master's","PhD"])
 
