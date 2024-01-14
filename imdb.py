@@ -13,7 +13,7 @@ def getdata():
     return df
 
 
-st.title("IMDB review Classification")
+st.title("IMDB review Classifications")
 df=getdata()
 
 
