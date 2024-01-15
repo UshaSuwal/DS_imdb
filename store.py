@@ -1,10 +1,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib as plt
-import seaborn as sns
 import plotly.express as px
-pd.set_option('display.max_columns', 100)
-pd.set_option('display.max_rows', 10)
 import streamlit as st
 import matplotlib.pyplot as plt
 
