@@ -40,6 +40,7 @@ st.write("Logistic Regression")
 st.write("This loan prediction model utilizes logistic regression to evaluate loan applications, providing a outcome of either approval or rejection. It analyzes a set of input features, which could include factors such as the applicant's credit score, income, assets value, and other relevant financial information. By learning from historical data where loan outcomes are known, the logistic regression model establishes a relationship between these features and the likelihood of loan approval.")
 
 
+st.header("Analyze:")
 with st.form(key="my_form"):
    gender=st.radio("Gender", ["Male", "Female"])
    education=st.radio("Education", ["Graduate", "Ungraduate"])
